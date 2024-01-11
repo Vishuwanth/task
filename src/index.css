@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,76 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body{
+  padding: 20px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.form{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  margin: 10px;
+}
+.addcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.addbutton{
+  margin: 20px
+}
+.card{
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: end;
+}
+.editButton{
+  margin-right: 5px;
+}
+
+.tableContainer{
+  width: 100%;
+  display: flex;
+}
+.col{
+  width: 25%;
+  border: 1px solid gray
 }
